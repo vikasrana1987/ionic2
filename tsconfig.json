@@ -4,6 +4,7 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "noImplicitAny": true,
     "lib": [
       "dom",
       "es2015"
@@ -17,10 +18,7 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "src/test.ts",
-    "**/*.spec.ts",
-    "e2e"
+    "node_modules"
   ],
   "compileOnSave": false,
   "atom": {
